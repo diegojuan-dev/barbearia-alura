@@ -1,0 +1,100 @@
+header{
+    background: #bbbbbb;
+    padding: 20px 0;        /*permite que tudo qeu esteja no cabeçalho não estoure para fora*/
+}
+
+.caixa{
+    width: 940px;
+    position: relative;     /*permite que o item de navegação esteja dentro da caixa*/
+    margin: 0 auto;     /*centraliza a caixa automaticamente (pra cima e pra baixo = 0 , e para os lados = auto)| alinhamento de DIV*/
+}
+
+nav{
+    position: absolute;     /*permite posicionar a o elemento de navegação*/
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;    /*deixa a lista uma ao lado da outra*/
+    margin: 0 0 0 15px;     /*espaçamento entre os itens*/
+}
+
+nav a{
+    text-transform: uppercase;      /*torna as letras em maiúsculo*/
+    color: #000000;     /*cor da fonte da lista do menu*/
+    font-weight: bold;      /*peso da fonte*/
+    font-size: 22px;        /*tamanho da fonte*/
+    text-decoration: none;      /*retira o sublinhado do menu de navegação*/
+}
+
+nav a:hover{
+    color: #c78c19;
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;      /*O tamanho pode ser ajustado, tanto na largura, quanto na altura*/
+    text-align: center;
+    width: 30%;     /*alinhamento da largura*/
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;     /*calculo de alinhamento automatico*/
+    /*----------AQUI TEMOS O BÁSICO DE UMA BORDA----------*/
+    border: 2px solid #000000;
+    /*----------AQUI TEMOS O BÁSICO DE UMA BORDA----------*/
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+}
+
+.produtos li:active{
+    border-color: #088c19;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+footer{
+    text-align: center;
+    background: url(../image/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+
